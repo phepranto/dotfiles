@@ -107,5 +107,6 @@ echo -e -n "\x1b[\x34 q" # changes to steady underline
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias wayfire="/opt/wayfire/bin/startwayfire"
-alias code="code-insiders --enable-features=UseOzonePlatform --ozone-platform=wayland"
+source ~/.zsh_aliases
+# alias wayfire="/opt/wayfire/bin/startwayfire"
+# alias code="code-insiders --enable-features=UseOzonePlatform --ozone-platform=wayland"
