@@ -1,9 +1,9 @@
 #!/bin/bash
 
 cd ~/dotfiles
-ln -s ~/dotfiles/.zshrc ~/.zshrc
-ln -s ~/dotfiles/.zsh_aliases ~/.zsh_aliases
-ln -s ~/dotfiles/sway ~/.config/
-ln -s ~/dotfiles/wayfire.ini ~/.config/
-ln -s ~/dotfiles/wf-shell.ini ~/.config/
-ln -s ~/dotfiles/pulse/default.pa ~/.config/pulse/
+ln -s --force ~/dotfiles/.zshrc ~/.zshrc
+ln -s --force ~/dotfiles/.zsh_aliases ~/.zsh_aliases
+ln -s --force ~/dotfiles/sway ~/.config/
+ln -s --force ~/dotfiles/wayfire.ini ~/.config/
+ln -s --force ~/dotfiles/wf-shell.ini ~/.config/
+ln -s --force ~/dotfiles/pulse/default.pa ~/.config/pulse/
