@@ -7,3 +7,8 @@ ln -s --force ~/dotfiles/sway ~/.config/
 ln -s --force ~/dotfiles/wayfire.ini ~/.config/
 ln -s --force ~/dotfiles/wf-shell.ini ~/.config/
 ln -s --force ~/dotfiles/pulse/default.pa ~/.config/pulse/
+mkdir ~/.config/waybar/
+ln -s --force ~/dotfiles/waybar/config ~/.config/waybar/config
+ln -s --force ~/dotfiles/waybar/style.css ~/.config/waybar/style.css
+mkdir ~/.config/alacritty/
+ln -s --force ~/dotfiles/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml

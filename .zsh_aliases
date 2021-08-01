@@ -1,2 +1,2 @@
 alias wayfire="/opt/wayfire/bin/startwayfire"
-alias code="code-insiders --enable-features=UseOzonePlatform --ozone-platform=wayland"
+alias code="code-insiders -enable-features=UseOzonePlatform --ozone-platform=wayland"
